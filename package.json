@@ -1,0 +1,60 @@
+{
+  "name": "spirio",
+  "version": "0.0.0",
+  "description": "A lightweight library to render amazing spiral animation on canvas!",
+  "keywords": [
+    "spirio",
+    "spiral",
+    "canvas",
+    "animation",
+    "background",
+    "javascript",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diasturdybek/spirio.git"
+  },
+  "author": {
+    "name": "Dias Turdybek",
+    "email": "dias.turdybek@mail.ru",
+    "url": "https://github.com/diasturdybek"
+  },
+  "bugs": {
+    "url": "https://github.com/diasturdybek/spirio/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://diasturdybek.github.io/spirio",
+  "main": "build/spirio.js",
+  "module": "build/spirio.js",
+  "typings": "build/spirio.d.ts",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "husky": "^8.0.1",
+    "rollup": "^2.78.0",
+    "rollup-plugin-license": "^2.8.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.7.4"
+  }
+}

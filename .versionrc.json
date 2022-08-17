@@ -1,0 +1,25 @@
+{
+	"preMajor": true,
+	"types": [
+		{
+			"type": "feat",
+			"section": "Features"
+		},
+		{
+			"type": "fix",
+			"section": "Bug Fixes"
+		},
+		{
+			"type": "refactor",
+			"section": "Refactoring"
+		},
+		{
+			"type": "perf",
+			"section": "Performance"
+		},
+		{"type": "style", "hidden": true},
+		{"type": "chore", "hidden": true},
+		{"type": "docs", "hidden": true},
+		{"type": "test", "hidden": true}
+	]
+}
